@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "371806852131",
+    "project_id": "ffhealthtrackerfyp2",
+    "storage_bucket": "ffhealthtrackerfyp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371806852131:android:23a56eb53c390361510d96",
+        "android_client_info": {
+          "package_name": "com.flutterflow.healthtrackerfyp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371806852131-12mq4jnic1l801gssq01ga5qcsmsi2ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutterflow.healthtrackerfyp2",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "371806852131-mm57d8m0vjp42ucsk27bk5k8ps7t3ko1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-kUycN-N-IYqRKi-ddYu4bJu8szGUFN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371806852131-mm57d8m0vjp42ucsk27bk5k8ps7t3ko1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "371806852131-lhp2afoc6l73ie673mrnpe2cprpjoimm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.healthtrackerfyp2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
