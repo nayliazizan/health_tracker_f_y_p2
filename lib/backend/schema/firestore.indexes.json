@@ -1,0 +1,116 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "appointments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "appointmentPerson",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "appointmentTime",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "diagnoses",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdForPatient",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "modifiedTime_diagnosis",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "appointments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "appointmentPerson",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "appointmentTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "consultationNotes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdForPatient",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "writtenTime",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "testResults",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "createdForPatient",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "modifiedTime_test",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "surveyT",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "respondent",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "submitted_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "surveyT",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "respondent",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "submitted_at",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "medications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "patient",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateMedication",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
